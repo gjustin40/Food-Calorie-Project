@@ -1,4 +1,5 @@
 # Food-Calorie-Project
+코드 공유를 위한 임시 repository
 
 ## 이미지 데이터 수집
 1. Clone this repository(또는 zip파일 다운로드)
@@ -23,7 +24,7 @@ python crawling.py --item americano,아메리카노 --name 폴더이름 # 한 �
 ```
 
 4. 결과
-```
+```bash
 ├── new_data
     ├── americano
     |   ├── americano1.jpg
@@ -41,3 +42,9 @@ python crawling.py --item americano,아메리카노 --name 폴더이름 # 한 �
 #### 주의사항
 - 덮어쓰기 방지를 위해 new_data폴더가 이미 존재하면 작동 중지(--name 사용 권장)
 - txt파일 작성 시 **영어**와 **한글** 둘 다 작성
+```python
+# drinks.txt
+
+americano,cappuccino,..... #엔터
+아메리카노, 카푸치노.....
+```
