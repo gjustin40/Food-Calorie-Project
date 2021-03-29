@@ -1,13 +1,17 @@
 # Food-Calorie-Project
 코드 공유를 위한 임시 repository
 
+
+
 ## 이미지 데이터 수집
 1. Clone this repository(또는 zip파일 다운로드)
 ```bash
 git clone https://github.com/gjustin40/Food-Calorie-Project.git
 ```
 
-2. Install Requirements 
+2. Install Requirements
+- Python==3.8.5
+- selenium==3.141.0
 ```bash
 pip install -r requirements.txt
 ```
