@@ -42,6 +42,7 @@ python crawling.py --item americano,아메리카노 --name 폴더이름 # 한 �
 #### 주의사항
 - 덮어쓰기 방지를 위해 new_data폴더가 이미 존재하면 작동 중지(--name 사용 권장)
 - txt파일 작성 시 **영어**와 **한글** 둘 다 작성
+- item 작성 시 **영어**,**한글** 둘 다 작성
 ```python
 # drinks.txt
 
