@@ -27,10 +27,10 @@ python crawling.py --item americano,아메리카노 --name 폴더이름 # 한 �
 ```bash
 ├── new_data
     ├── americano
-    |   ├── americano1.jpg
-    |   ├── americano2.jpg
-    |   ├── americano3.jpg
-    |   └── americano4.jpg
+    │   ├── americano1.jpg
+    │   ├── americano2.jpg
+    │   ├── americano3.jpg
+    │   └── americano4.jpg
     ├── cappuccino
     ├── ice_tea
     .
