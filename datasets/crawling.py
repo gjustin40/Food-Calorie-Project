@@ -49,7 +49,7 @@ def check_dir(filename):
 
 def crawling():
     caps = DesiredCapabilities.CHROME
-    caps['loggingPrefs'] = {'performance': 'ALL'}
+    caps['goog:loggingPrefs'] = {'performance': 'ALL'}
     options = webdriver.ChromeOptions()
     #options.add_argument('headless')
     options.add_argument("--window-size=1920,1080")
