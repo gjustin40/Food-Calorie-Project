@@ -20,6 +20,7 @@ pip install -r requirements.txt
 
 **3. Run file**
 ```bash
+cd datasets
 python crawling.py --list 음식목록.txt --name 폴더이름  # 여러 가지 음식
 ```
 
