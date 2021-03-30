@@ -4,19 +4,21 @@
 
 
 ## 이미지 데이터 수집
-1. Clone this repository(또는 zip파일 다운로드)
+**1. Clone this repository(또는 zip파일 다운로드)**
 ```bash
 git clone https://github.com/gjustin40/Food-Calorie-Project.git
 ```
 
-2. Install Requirements
+**2. Install Requirements**
 - Python==3.8.5
 - selenium==3.141.0
+- chromeDriver==89.0.4389.23
+[Download Chromedriver](https://chromedriver.chromium.org/)
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run file
+**3. Run file**
 ```bash
 python crawling.py --list 음식목록.txt --name 폴더이름  # 여러 가지 음식
 ```
@@ -27,7 +29,7 @@ or
 python crawling.py --item americano,아메리카노 --name 폴더이름 # 한 가지 음식
 ```
 
-4. 결과
+**4. 결과**
 ```bash
 ├── new_data
     ├── americano
