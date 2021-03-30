@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 3. Run file
 ```bash
-python crawling.py --food 음식목록.txt --name 폴더이름  # 여러 가지 음식
+python crawling.py --list 음식목록.txt --name 폴더이름  # 여러 가지 음식
 ```
 
 or
