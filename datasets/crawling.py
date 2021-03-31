@@ -103,10 +103,10 @@ def crawling():
                     image_url_list.append(url)
 
         count = 1
-        os.makedirs('new_data\\' + food_en, exist_ok=True)
+        os.makedirs(opt.name + '\\' + food_en, exist_ok=True)
         for image_url in set(image_url_list):
             with urlopen(image_url) as f:
-                with open('{}\{}\{}'.format('new_data', food_en, food_en) + str(count) + '.jpg', 'wb') as file_name:
+                with open('{}\{}\{}'.format(opt.name, food_en, food_en) + str(count) + '.jpg', 'wb') as file_name:
                     img = f.read()
                     file_name.write(img)
             count += 1
