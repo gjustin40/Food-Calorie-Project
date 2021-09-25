@@ -1,0 +1,29 @@
+# COCO 2017 dataset http://cocodataset.org
+# Train command: python train.py --data coco.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /coco
+#     /yolov5
+
+
+# download command/URL (optional)
+# download: bash data/scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../custom/train  # 118287 images
+val: ../custom/val
+# test: ../coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 18
+
+# class names
+names: ['latte_st', 'tomato_juice', 'latte_goguma', 'americano', 'latte_greentea', 'latte_vanilla',
+'caffe_mocha','frappuccino_greentea', 'hongsi_juice', 'frappuccino_javachip', 'bubbletea_blacksugar',
+'cappuccino', 'caramel_macchiato', 'grape_juice', 'mango_juice', 'latte_caffe', 'shake_choco', 'unknown']
+
+# Print classes
+# with open('data/coco.yaml') as f:
+#   d = yaml.load(f, Loader=yaml.FullLoader)  # dict
+#   for i, x in enumerate(d['names']):
+#     print(i, x)

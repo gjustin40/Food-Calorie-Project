@@ -1,0 +1,35 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-04-14T16:54:56.418251",
+    "startedAt": "2021-04-14T16:54:54.230441",
+    "docker": null,
+    "gpu": "GeForce RTX 2070 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--img",
+        "384",
+        "--batch",
+        "16",
+        "--epochs",
+        "120",
+        "--data",
+        "custom.yaml",
+        "--weights",
+        "yolov5x.pt"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5.git",
+        "commit": "6bd5e8bca74afe497178181661648218dfbc8d5a"
+    },
+    "email": "gjustin@naver.com",
+    "root": "C:/Users/gjust/Documents/deeplearning/yolov5",
+    "host": "DESKTOP-UNQS057",
+    "username": "gjust",
+    "executable": "C:\\ProgramData\\Anaconda3\\python.exe"
+}

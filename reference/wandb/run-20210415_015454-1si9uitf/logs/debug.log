@@ -1,0 +1,103 @@
+2021-04-15 01:54:54,234 INFO    MainThread:328 [wandb_setup.py:_flush():69] setting env: {}
+2021-04-15 01:54:54,234 INFO    MainThread:328 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-04-15 01:54:54,234 INFO    MainThread:328 [wandb_setup.py:_flush():69] setting login settings: {'api_key': 'c3153c5432ae91c55d27179fb1a8d68878d36ec8'}
+2021-04-15 01:54:54,234 INFO    MainThread:328 [wandb_init.py:_log_setup():336] Logging user logs to C:\Users\gjust\Documents\deeplearning\yolov5\wandb\run-20210415_015454-1si9uitf\logs\debug.log
+2021-04-15 01:54:54,234 INFO    MainThread:328 [wandb_init.py:_log_setup():337] Logging internal logs to C:\Users\gjust\Documents\deeplearning\yolov5\wandb\run-20210415_015454-1si9uitf\logs\debug-internal.log
+2021-04-15 01:54:54,235 INFO    MainThread:328 [wandb_init.py:init():369] calling init triggers
+2021-04-15 01:54:54,235 INFO    MainThread:328 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5x.pt', 'cfg': '', 'data': '.\\data\\custom.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0}, 'epochs': 120, 'batch_size': 16, 'img_size': [384, 384], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'local_rank': -1, 'log_imgs': 16, 'log_artifacts': False, 'workers': 8, 'project': 'runs/train', 'name': 'exp', 'exist_ok': False, 'total_batch_size': 16, 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs\\train\\exp14'}
+2021-04-15 01:54:54,235 INFO    MainThread:328 [wandb_init.py:init():418] starting backend
+2021-04-15 01:54:54,235 INFO    MainThread:328 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn, using: spawn
+2021-04-15 01:54:54,239 INFO    MainThread:328 [backend.py:ensure_launched():123] starting backend process...
+2021-04-15 01:54:54,315 INFO    MainThread:328 [backend.py:ensure_launched():127] started backend process with pid: 20160
+2021-04-15 01:54:54,315 INFO    MainThread:328 [wandb_init.py:init():423] backend started and connected
+2021-04-15 01:54:54,316 INFO    MainThread:328 [wandb_init.py:init():465] updated telemetry
+2021-04-15 01:54:54,317 INFO    MainThread:328 [wandb_init.py:init():484] communicating current version
+2021-04-15 01:54:55,676 INFO    MainThread:328 [wandb_init.py:init():489] got version response 
+2021-04-15 01:54:55,676 INFO    MainThread:328 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-04-15 01:54:56,399 INFO    MainThread:328 [wandb_init.py:init():522] starting run threads in backend
+2021-04-15 01:54:56,603 INFO    MainThread:328 [wandb_run.py:_console_start():1524] atexit reg
+2021-04-15 01:54:56,604 INFO    MainThread:328 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-04-15 01:54:56,604 INFO    MainThread:328 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-04-15 01:54:56,604 INFO    MainThread:328 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-04-15 01:54:56,604 INFO    MainThread:328 [wandb_init.py:init():546] run started, returning control to user process
+2021-04-15 03:02:31,601 INFO    MainThread:328 [wandb_run.py:_atexit_cleanup():1494] got exitcode: 1
+2021-04-15 03:02:31,601 INFO    MainThread:328 [wandb_run.py:_restore():1466] restore
+2021-04-15 03:02:32,055 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1697949
+  total_bytes: 1697949
+}
+
+2021-04-15 03:02:32,501 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1697949
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:32,895 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1705842
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:33,008 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1706716
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:33,113 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1706716
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:33,219 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1706716
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:33,323 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1706716
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:33,639 INFO    MainThread:328 [wandb_run.py:_wait_for_finish():1616] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1706716
+  total_bytes: 1706716
+}
+
+2021-04-15 03:02:34,848 INFO    MainThread:328 [wandb_run.py:_show_summary():1771] rendering summary
+2021-04-15 03:02:35,013 INFO    MainThread:328 [wandb_run.py:_show_history():1809] rendering history
+2021-04-15 03:02:35,185 INFO    MainThread:328 [wandb_run.py:_show_files():1838] logging synced files
